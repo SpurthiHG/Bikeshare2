@@ -74,7 +74,7 @@ name: my-build-package
 env:
 DOCKER_USER: ${{ secrets.DOCKER_USER_NAME }}
 DOCKER_PASSWORD: ${{ secrets.DOCKER_PASS_TOKEN }}
-run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+run: docker login -u spurthi04 -p concentrate@123
 
 - name: Build the Docker image for Fastapi app
 env:
